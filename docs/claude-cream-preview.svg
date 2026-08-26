@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#dccebf"/>
+  <text x="40" y="36" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="600" fill="#403d36">Claude Cream for IDEA</text>
+
+  <rect x="40" y="58" width="540" height="640" rx="18" fill="#f8f7f2" stroke="#d8d2c3"/>
+  <rect x="40" y="58" width="540" height="52" rx="18" fill="#f5f3e9"/>
+  <rect x="40" y="92" width="540" height="18" fill="#f5f3e9"/>
+  <circle cx="70" cy="84" r="6" fill="#7c1b13"/>
+  <circle cx="90" cy="84" r="6" fill="#b7791f"/>
+  <circle cx="110" cy="84" r="6" fill="#4b6f3d"/>
+  <text x="136" y="90" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#29271d">Claude Cream Light</text>
+
+  <rect x="40" y="110" width="132" height="588" fill="#f0eee6"/>
+  <text x="62" y="145" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#6d675b">PROJECT</text>
+  <rect x="52" y="162" width="108" height="28" rx="6" fill="#e6d7b7"/>
+  <circle cx="68" cy="176" r="5" fill="#b7791f"/>
+  <text x="81" y="181" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#29271d">src</text>
+  <text x="62" y="215" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#6d675b">Theme.java</text>
+  <text x="62" y="240" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#8d8575">palette.json</text>
+
+  <rect x="172" y="110" width="408" height="36" fill="#f0eee6"/>
+  <rect x="184" y="116" width="126" height="30" rx="6" fill="#f8f7f2"/>
+  <rect x="184" y="116" width="126" height="3" rx="2" fill="#b7791f"/>
+  <text x="199" y="137" font-family="JetBrains Mono, monospace" font-size="12" fill="#29271d">Theme.java</text>
+
+  <g font-family="JetBrains Mono, monospace" font-size="14">
+    <text x="194" y="184" fill="#a49d8e">1</text>
+    <text x="222" y="184" fill="#6f3f82">public class</text>
+    <text x="334" y="184" fill="#4f6f2b">CreamTheme</text>
+    <text x="436" y="184" fill="#5b554b">{</text>
+    <text x="194" y="212" fill="#a49d8e">2</text>
+    <text x="242" y="212" fill="#756e62" font-style="italic">// Warm, editorial focus</text>
+    <text x="194" y="240" fill="#a49d8e">3</text>
+    <text x="242" y="240" fill="#6f3f82">private final</text>
+    <text x="362" y="240" fill="#4f6f2b">String</text>
+    <text x="418" y="240" fill="#2f3440">accent</text>
+    <text x="472" y="240" fill="#4c463b">=</text>
+    <text x="488" y="240" fill="#536b2c">"#b7791f"</text>
+    <text x="568" y="240" fill="#5b554b">;</text>
+    <text x="194" y="268" fill="#a49d8e">4</text>
+    <rect x="236" y="248" width="326" height="27" fill="#f0eee6" opacity=".8"/>
+    <text x="242" y="268" fill="#6f3f82">boolean</text>
+    <text x="310" y="268" fill="#8a5e16">isReadable</text>
+    <text x="406" y="268" fill="#5b554b">()</text>
+    <text x="430" y="268" fill="#5b554b">{</text>
+    <text x="194" y="296" fill="#a49d8e">5</text>
+    <text x="262" y="296" fill="#6f3f82">return</text>
+    <text x="322" y="296" fill="#8a5e16">contrast</text>
+    <text x="390" y="296" fill="#5b554b">(</text>
+    <text x="402" y="296" fill="#2f3440">accent</text>
+    <text x="454" y="296" fill="#5b554b">)</text>
+    <text x="466" y="296" fill="#4c463b">&gt;=</text>
+    <text x="494" y="296" fill="#8a5e16">4.5</text>
+    <text x="522" y="296" fill="#5b554b">;</text>
+    <text x="194" y="324" fill="#a49d8e">6</text>
+    <text x="242" y="324" fill="#5b554b">}</text>
+    <text x="194" y="352" fill="#a49d8e">7</text>
+    <text x="222" y="352" fill="#5b554b">}</text>
+  </g>
+
+  <text x="196" y="626" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#6d675b">PALETTE</text>
+  <rect x="196" y="640" width="56" height="22" rx="5" fill="#f5f3e9" stroke="#d8d2c3"/>
+  <rect x="262" y="640" width="56" height="22" rx="5" fill="#b7791f"/>
+  <rect x="328" y="640" width="56" height="22" rx="5" fill="#2c6f75"/>
+  <rect x="394" y="640" width="56" height="22" rx="5" fill="#4b6f3d"/>
+  <rect x="460" y="640" width="56" height="22" rx="5" fill="#6f3f82"/>
+
+  <rect x="620" y="58" width="540" height="640" rx="18" fill="#2d2e2d" stroke="#3d3d3a"/>
+  <rect x="620" y="58" width="540" height="52" rx="18" fill="#242524"/>
+  <rect x="620" y="92" width="540" height="18" fill="#242524"/>
+  <circle cx="650" cy="84" r="6" fill="#ea928a"/>
+  <circle cx="670" cy="84" r="6" fill="#e6bf7a"/>
+  <circle cx="690" cy="84" r="6" fill="#9ab889"/>
+  <text x="716" y="90" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="600" fill="#e9e6dc">Claude Cream Dark</text>
+
+  <rect x="620" y="110" width="132" height="588" fill="#2a2b2a"/>
+  <text x="642" y="145" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#bbb6a8">PROJECT</text>
+  <rect x="632" y="162" width="108" height="28" rx="6" fill="#54482f"/>
+  <circle cx="648" cy="176" r="5" fill="#e6bf7a"/>
+  <text x="661" y="181" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#e9e6dc">src</text>
+  <text x="642" y="215" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#bbb6a8">Theme.java</text>
+  <text x="642" y="240" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#8c887e">palette.json</text>
+
+  <rect x="752" y="110" width="408" height="36" fill="#242524"/>
+  <rect x="764" y="116" width="126" height="30" rx="6" fill="#2d2e2d"/>
+  <rect x="764" y="116" width="126" height="3" rx="2" fill="#e6bf7a"/>
+  <text x="779" y="137" font-family="JetBrains Mono, monospace" font-size="12" fill="#e9e6dc">Theme.java</text>
+
+  <g font-family="JetBrains Mono, monospace" font-size="14">
+    <text x="774" y="184" fill="#6f706a">1</text>
+    <text x="802" y="184" fill="#c891d9">public class</text>
+    <text x="914" y="184" fill="#98c379">CreamTheme</text>
+    <text x="1016" y="184" fill="#b8b2a8">{</text>
+    <text x="774" y="212" fill="#6f706a">2</text>
+    <text x="822" y="212" fill="#9da39a" font-style="italic">// Warm, editorial focus</text>
+    <text x="774" y="240" fill="#6f706a">3</text>
+    <text x="822" y="240" fill="#c891d9">private final</text>
+    <text x="946" y="240" fill="#98c379">String</text>
+    <text x="1008" y="240" fill="#abb2bf">accent</text>
+    <text x="1064" y="240" fill="#d6cbc0">=</text>
+    <text x="1082" y="240" fill="#b5c88d">"gold"</text>
+    <text x="1138" y="240" fill="#b8b2a8">;</text>
+    <text x="774" y="268" fill="#6f706a">4</text>
+    <rect x="816" y="248" width="326" height="27" fill="#343533"/>
+    <text x="822" y="268" fill="#c891d9">boolean</text>
+    <text x="890" y="268" fill="#e5c07b">isReadable</text>
+    <text x="986" y="268" fill="#b8b2a8">()</text>
+    <text x="1010" y="268" fill="#b8b2a8">{</text>
+    <text x="774" y="296" fill="#6f706a">5</text>
+    <text x="842" y="296" fill="#c891d9">return</text>
+    <text x="902" y="296" fill="#e5c07b">contrast</text>
+    <text x="970" y="296" fill="#b8b2a8">(</text>
+    <text x="982" y="296" fill="#abb2bf">accent</text>
+    <text x="1034" y="296" fill="#b8b2a8">)</text>
+    <text x="1046" y="296" fill="#d6cbc0">&gt;=</text>
+    <text x="1074" y="296" fill="#d19a66">4.5</text>
+    <text x="1102" y="296" fill="#b8b2a8">;</text>
+    <text x="774" y="324" fill="#6f706a">6</text>
+    <text x="822" y="324" fill="#b8b2a8">}</text>
+    <text x="774" y="352" fill="#6f706a">7</text>
+    <text x="802" y="352" fill="#b8b2a8">}</text>
+  </g>
+
+  <text x="776" y="626" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="600" fill="#bbb6a8">PALETTE</text>
+  <rect x="776" y="640" width="56" height="22" rx="5" fill="#2d2e2d" stroke="#3d3d3a"/>
+  <rect x="842" y="640" width="56" height="22" rx="5" fill="#e6bf7a"/>
+  <rect x="908" y="640" width="56" height="22" rx="5" fill="#75b5bc"/>
+  <rect x="974" y="640" width="56" height="22" rx="5" fill="#9ab889"/>
+  <rect x="1040" y="640" width="56" height="22" rx="5" fill="#c891d9"/>
+</svg>

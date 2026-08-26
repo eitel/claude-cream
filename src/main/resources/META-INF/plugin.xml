@@ -1,0 +1,28 @@
+<idea-plugin>
+  <id>io.github.eitel.claudecream.idea</id>
+  <name>Claude Cream for IDEA</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/eitel/claude-cream">eitel</vendor>
+
+  <description><![CDATA[
+    An unofficial warm editorial IntelliJ Platform theme adapted from the Claude Cream palette.
+    Includes coordinated Light and Dark UI themes, editor color schemes, terminal colors,
+    VCS states, diagnostics, search highlights, and Diff colors.
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <ul>
+      <li>Initial Claude Cream Light and Dark themes.</li>
+      <li>Palette synchronized with claude-cream tokens 1.0.0.</li>
+      <li>Compatible with IntelliJ Platform 2024.3 and newer.</li>
+    </ul>
+  ]]></change-notes>
+
+  <idea-version since-build="243"/>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="claude.cream.light" path="/themes/ClaudeCreamLight.theme.json"/>
+    <themeProvider id="claude.cream.dark" path="/themes/ClaudeCreamDark.theme.json"/>
+  </extensions>
+</idea-plugin>

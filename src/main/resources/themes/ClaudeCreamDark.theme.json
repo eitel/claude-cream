@@ -1,0 +1,358 @@
+{
+  "name": "Claude Cream Dark",
+  "dark": true,
+  "author": "eitel",
+  "parentTheme": "Darcula",
+  "editorScheme": "/themes/ClaudeCreamDark.xml",
+  "colors": {
+    "CreamInk": "#e9e6dc",
+    "CreamBody": "#ddd9cd",
+    "CreamBodyStrong": "#eeeae0",
+    "CreamMuted": "#bbb6a8",
+    "CreamMutedSoft": "#8c887e",
+    "CreamCanvas": "#2d2e2d",
+    "CreamSurface": "#2a2b2a",
+    "CreamElevated": "#303030",
+    "CreamInset": "#242524",
+    "CreamRaised": "#343533",
+    "CreamBorder": "#3d3d3a",
+    "CreamBorderSoft": "#343533",
+    "CreamAccent": "#e6bf7a",
+    "CreamAccentActive": "#f0cf92",
+    "CreamAccentSubtle": "#54482f",
+    "CreamSelection": "#695735",
+    "CreamSelectionInactive": "#4b493f",
+    "CreamOnAccent": "#2a1e1b",
+    "CreamTeal": "#75b5bc",
+    "CreamGreen": "#9ab889",
+    "CreamWarning": "#e6bf7a",
+    "CreamError": "#ea928a",
+    "CreamErrorSoft": "#613733",
+    "CreamGreenSoft": "#43513c",
+    "CreamWarningSoft": "#5a4d33",
+    "CreamPurple": "#c891d9"
+  },
+  "ui": {
+    "*": {
+      "foreground": "CreamBody",
+      "background": "CreamCanvas",
+      "borderColor": "CreamBorder",
+      "disabledText": "CreamMutedSoft",
+      "disabledForeground": "CreamMutedSoft",
+      "inactiveForeground": "CreamMutedSoft",
+      "disabledBackground": "CreamSurface",
+      "disabledBorderColor": "CreamBorderSoft",
+      "selectionBackground": "CreamAccentSubtle",
+      "lightSelectionBackground": "CreamAccentSubtle",
+      "selectionInactiveBackground": "CreamSelectionInactive",
+      "selectionForeground": "CreamInk",
+      "selectionInactiveForeground": "CreamBody",
+      "hoverBackground": "CreamRaised",
+      "infoForeground": "CreamMuted",
+      "acceleratorForeground": "CreamMuted",
+      "acceleratorSelectionForeground": "CreamMuted",
+      "shortcutForeground": "CreamMuted",
+      "underlineColor": "CreamAccent",
+      "inactiveUnderlineColor": "CreamMutedSoft",
+      "focusColor": "CreamAccent",
+      "separatorColor": "CreamBorder",
+      "separatorForeground": "CreamMuted",
+      "modifiedItemForeground": "CreamAccent"
+    },
+    "ActionButton": {
+      "hoverBackground": "#ffffff16",
+      "hoverBorderColor": "#ffffff00",
+      "pressedBackground": "#ffffff26",
+      "pressedBorderColor": "#ffffff00",
+      "focusedBorderColor": "CreamAccent",
+      "hoverSeparatorColor": "CreamMutedSoft"
+    },
+    "Badge": {
+      "background": "CreamAccent",
+      "foreground": "CreamOnAccent",
+      "greenOutlineForeground": "CreamGreen",
+      "greenOutlineBorderColor": "CreamGreen"
+    },
+    "Borders.color": "CreamBorder",
+    "Borders.ContrastBorderColor": "CreamBorder",
+    "Button": {
+      "startBackground": "CreamElevated",
+      "endBackground": "CreamElevated",
+      "startBorderColor": "CreamBorder",
+      "endBorderColor": "CreamBorder",
+      "focusedBorderColor": "CreamAccent",
+      "default": {
+        "foreground": "CreamOnAccent",
+        "startBackground": "CreamAccent",
+        "endBackground": "CreamAccent",
+        "startBorderColor": "CreamAccent",
+        "endBorderColor": "CreamAccent",
+        "focusedBorderColor": "CreamAccentActive"
+      }
+    },
+    "Component": {
+      "borderColor": "CreamBorder",
+      "focusedBorderColor": "CreamAccent",
+      "errorFocusColor": "CreamError",
+      "inactiveErrorFocusColor": "CreamErrorSoft",
+      "warningFocusColor": "CreamWarning",
+      "inactiveWarningFocusColor": "CreamWarningSoft"
+    },
+    "CheckBox": {
+      "background": "CreamElevated",
+      "foreground": "CreamBody"
+    },
+    "ComboBox": {
+      "background": "CreamElevated",
+      "nonEditableBackground": "CreamElevated",
+      "disabledBackground": "CreamSurface",
+      "ArrowButton": {
+        "background": "CreamElevated",
+        "nonEditableBackground": "CreamElevated",
+        "disabledBackground": "CreamSurface"
+      }
+    },
+    "TextField": {
+      "background": "CreamElevated",
+      "foreground": "CreamBodyStrong",
+      "inactiveForeground": "CreamMutedSoft",
+      "separatorColor": "CreamBorder"
+    },
+    "PasswordField.background": "CreamElevated",
+    "FormattedTextField.background": "CreamElevated",
+    "TextArea.background": "CreamElevated",
+    "TextPane.background": "CreamElevated",
+    "EditorPane.background": "CreamElevated",
+    "List": {
+      "background": "CreamCanvas",
+      "foreground": "CreamBody",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk",
+      "hoverBackground": "CreamRaised"
+    },
+    "Tree": {
+      "background": "CreamCanvas",
+      "foreground": "CreamBody",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk",
+      "selectionInactiveBackground": "CreamSelectionInactive",
+      "selectionInactiveForeground": "CreamBody"
+    },
+    "Table": {
+      "background": "CreamCanvas",
+      "foreground": "CreamBody",
+      "gridColor": "CreamBorderSoft",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk",
+      "hoverBackground": "CreamRaised"
+    },
+    "TableHeader": {
+      "background": "CreamSurface",
+      "foreground": "CreamBodyStrong",
+      "separatorColor": "CreamBorder",
+      "bottomSeparatorColor": "CreamBorder"
+    },
+    "Panel.background": "CreamCanvas",
+    "Viewport.background": "CreamCanvas",
+    "ToolWindow": {
+      "background": "CreamSurface",
+      "Header": {
+        "background": "CreamSurface",
+        "inactiveBackground": "CreamInset",
+        "borderColor": "CreamBorder"
+      },
+      "Button": {
+        "selectedBackground": "CreamAccentSubtle",
+        "selectedForeground": "CreamAccent",
+        "hoverBackground": "CreamRaised"
+      }
+    },
+    "EditorTabs": {
+      "background": "CreamInset",
+      "underTabsBorderColor": "CreamBorder",
+      "underlineColor": "CreamAccent",
+      "inactiveUnderlineColor": "CreamBorder",
+      "hoverBackground": "CreamRaised",
+      "hoverInactiveBackground": "CreamSurface",
+      "underlinedTabBackground": "CreamCanvas",
+      "inactiveColoredFileBackground": "#24252480"
+    },
+    "DefaultTabs": {
+      "background": "CreamInset",
+      "underlinedTabBackground": "CreamCanvas",
+      "underlineColor": "CreamAccent",
+      "inactiveUnderlineColor": "CreamBorder",
+      "hoverBackground": "CreamRaised"
+    },
+    "MainToolbar": {
+      "background": "CreamInset",
+      "inactiveBackground": "CreamSurface",
+      "borderColor": "CreamBorder",
+      "Icon": {
+        "foreground": "CreamBody",
+        "hoverBackground": "CreamRaised",
+        "pressedBackground": "CreamAccentSubtle"
+      },
+      "Dropdown": {
+        "hoverBackground": "CreamRaised",
+        "pressedBackground": "CreamAccentSubtle"
+      }
+    },
+    "TitlePane": {
+      "background": "CreamInset",
+      "inactiveBackground": "CreamSurface",
+      "foreground": "CreamInk",
+      "inactiveForeground": "CreamMuted"
+    },
+    "StatusBar": {
+      "background": "CreamInset",
+      "foreground": "CreamBody",
+      "borderColor": "CreamBorder",
+      "hoverBackground": "CreamRaised"
+    },
+    "NavigationBar": {
+      "background": "CreamCanvas",
+      "foreground": "CreamBody",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk"
+    },
+    "Menu": {
+      "background": "CreamElevated",
+      "foreground": "CreamBody",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk"
+    },
+    "MenuItem": {
+      "background": "CreamElevated",
+      "foreground": "CreamBody",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk",
+      "disabledForeground": "CreamMutedSoft"
+    },
+    "PopupMenu": {
+      "background": "CreamElevated",
+      "foreground": "CreamBody",
+      "borderColor": "CreamBorder",
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionForeground": "CreamInk"
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "CreamSurface",
+        "inactiveBackground": "CreamInset"
+      },
+      "Advertiser": {
+        "background": "CreamSurface",
+        "foreground": "CreamMuted"
+      }
+    },
+    "CompletionPopup": {
+      "selectionBackground": "CreamAccentSubtle",
+      "selectionInactiveBackground": "CreamSelectionInactive",
+      "matchForeground": "CreamAccent"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "CreamAccentSubtle",
+        "selectedForeground": "CreamInk"
+      },
+      "SearchField.background": "CreamElevated",
+      "Header.background": "CreamSurface"
+    },
+    "Link": {
+      "activeForeground": "CreamAccentActive",
+      "hoverForeground": "CreamAccentActive",
+      "pressedForeground": "CreamAccentActive",
+      "visitedForeground": "CreamPurple",
+      "secondaryForeground": "CreamTeal",
+      "focusedBorderColor": "CreamAccent"
+    },
+    "Label": {
+      "foreground": "CreamBody",
+      "disabledForeground": "CreamMutedSoft",
+      "errorForeground": "CreamError",
+      "warningForeground": "CreamWarning",
+      "infoForeground": "CreamTeal"
+    },
+    "ProgressBar": {
+      "progressColor": "CreamAccent",
+      "trackColor": "CreamBorderSoft",
+      "failedColor": "CreamError",
+      "passedColor": "CreamGreen"
+    },
+    "Separator": {
+      "separatorColor": "CreamBorder",
+      "separatorTextForeground": "CreamMuted"
+    },
+    "ScrollBar": {
+      "trackColor": "#8c887e00",
+      "thumbColor": "#8c887e4d",
+      "thumbBorderColor": "#8c887e4d",
+      "hoverTrackColor": "#8c887e1a",
+      "hoverThumbColor": "#bbb6a866",
+      "hoverThumbBorderColor": "#bbb6a866"
+    },
+    "Notification": {
+      "background": "CreamElevated",
+      "borderColor": "CreamBorder",
+      "foreground": "CreamBody",
+      "errorBackground": "CreamErrorSoft",
+      "errorBorderColor": "CreamError",
+      "warningBackground": "CreamWarningSoft",
+      "warningBorderColor": "CreamWarning",
+      "infoBackground": "CreamSurface",
+      "infoBorderColor": "CreamTeal"
+    },
+    "GotItTooltip": {
+      "background": "CreamAccent",
+      "foreground": "CreamOnAccent",
+      "linkForeground": "CreamOnAccent",
+      "borderColor": "CreamAccentActive"
+    },
+    "ToolTip": {
+      "background": "CreamElevated",
+      "foreground": "CreamBody",
+      "borderColor": "CreamBorder",
+      "Actions.background": "CreamSurface"
+    },
+    "Editor": {
+      "SearchField.background": "CreamElevated",
+      "Toolbar.borderColor": "CreamBorder",
+      "ToolTip": {
+        "foreground": "CreamBody",
+        "background": "CreamElevated",
+        "border": "CreamBorder",
+        "errorBackground": "CreamErrorSoft",
+        "errorBorder": "CreamError",
+        "successBackground": "CreamGreenSoft",
+        "successBorder": "CreamGreen",
+        "warningBackground": "CreamWarningSoft",
+        "warningBorder": "CreamWarning",
+        "selectionBackground": "CreamAccentSubtle"
+      }
+    },
+    "Debugger": {
+      "Variables": {
+        "valueForeground": "CreamBody",
+        "typeForeground": "CreamMuted",
+        "changedValueForeground": "CreamAccent",
+        "errorMessageForeground": "CreamError",
+        "exceptionForeground": "CreamError"
+      },
+      "EvaluateExpression.background": "CreamRaised"
+    },
+    "DragAndDrop": {
+      "borderColor": "CreamAccent",
+      "rowBackground": "#e6bf7a26"
+    },
+    "FileColor": {
+      "Yellow": "#403823",
+      "Green": "#303c2d",
+      "Orange": "#46362a",
+      "Rose": "#49302e",
+      "Violet": "#3e3343",
+      "Blue": "#293d3f",
+      "Gray": "CreamRaised"
+    }
+  }
+}

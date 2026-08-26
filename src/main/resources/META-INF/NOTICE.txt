@@ -1,0 +1,11 @@
+Claude Cream for IDEA adapts the Claude Cream palette and design-token mappings:
+https://github.com/kakarrot-dev/claude-cream
+
+Adaptation repository: https://github.com/eitel/claude-cream
+
+Upstream version: 1.0.0
+Upstream commit: a1e8d64cb4de3a8e0d5e31b695f37239b0f172b0
+Original author: 段茱文 (kakarrot0109)
+
+This is an unofficial community adaptation. It is not affiliated with,
+endorsed by, or sponsored by Anthropic or JetBrains.
