@@ -118,7 +118,10 @@ def validate_theme(path: Path, mode: str, tokens: dict[str, object]) -> Path:
         if not isinstance(color, str) or not HEX_COLOR.fullmatch(color):
             fail(f"{path.name}: colors.{key} is not #RRGGBB or #RRGGBBAA")
 
-    ui = flatten_ui(theme.get("ui"))
+    ui_config = theme.get("ui")
+    if not isinstance(ui_config, dict):
+        fail(f"{path.name}: ui must be an object")
+    ui = flatten_ui(ui_config)
     if len(ui) < 100:
         fail(f"{path.name}: only {len(ui)} UI overrides; expected comprehensive coverage")
     unknown_references = {
@@ -130,6 +133,36 @@ def validate_theme(path: Path, mode: str, tokens: dict[str, object]) -> Path:
     }
     if unknown_references:
         fail(f"{path.name}: unknown palette references {sorted(unknown_references)}")
+
+    if mode == "light":
+        main_toolbar = ui_config.get("MainToolbar")
+        if not isinstance(main_toolbar, dict):
+            fail(f"{path.name}: MainToolbar must be an object")
+        expected_toolbar = {
+            "background": "CreamCanvas",
+            "foreground": "CreamBodyStrong",
+        }
+        for key, expected in expected_toolbar.items():
+            if main_toolbar.get(key) != expected:
+                fail(f"{path.name}: MainToolbar.{key} must be {expected}")
+
+        icon_source = "/expui/general/moreVertical_stroke.svg"
+        icon_target = "/expui/general/moreVertical.svg"
+        icons = theme.get("icons")
+        if not isinstance(icons, dict) or icons.get(icon_source) != icon_target:
+            fail(
+                f"{path.name}: the white main-toolbar overflow icon must map to "
+                f"{icon_target}"
+            )
+
+        toolbar_foreground = palette[main_toolbar["foreground"]]
+        toolbar_background = palette[main_toolbar["background"]]
+        ratio = contrast(toolbar_foreground, toolbar_background)
+        if ratio < 4.5:
+            fail(
+                f"{path.name}: main toolbar foreground contrast "
+                f"{ratio:.2f}:1 is below 4.5:1"
+            )
 
     source_colors = tokens["colors"][mode]
     expected_palette = {

@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>io.github.eitel.claudecream.idea</id>
   <name>Claude Cream for IDEA</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <vendor url="https://github.com/eitel/claude-cream">eitel</vendor>
 
   <description><![CDATA[
@@ -12,6 +12,7 @@
 
   <change-notes><![CDATA[
     <ul>
+      <li>1.0.1: Fix the invisible overflow icon on the Claude Cream Light main toolbar.</li>
       <li>Initial Claude Cream Light and Dark themes.</li>
       <li>Palette synchronized with claude-cream tokens 1.0.0.</li>
       <li>Compatible with IntelliJ Platform 2024.3 and newer.</li>

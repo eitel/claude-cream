@@ -186,14 +186,17 @@
     },
     "MainToolbar": {
       "background": "CreamCanvas",
+      "foreground": "CreamBodyStrong",
       "inactiveBackground": "CreamInset",
+      "separatorColor": "CreamBorder",
       "borderColor": "CreamBorder",
       "Icon": {
-        "foreground": "CreamBody",
         "hoverBackground": "CreamBorderSoft",
         "pressedBackground": "CreamAccentSubtle"
       },
       "Dropdown": {
+        "foreground": "CreamBodyStrong",
+        "background": "CreamCanvas",
         "hoverBackground": "CreamBorderSoft",
         "pressedBackground": "CreamAccentSubtle"
       }
@@ -354,5 +357,8 @@
       "Blue": "#dcebed",
       "Gray": "CreamInset"
     }
+  },
+  "icons": {
+    "/expui/general/moreVertical_stroke.svg": "/expui/general/moreVertical.svg"
   }
 }

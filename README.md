@@ -18,7 +18,7 @@ Settings → Editor → Font 中调整。
 
 ## 安装
 
-1. 下载 [`dist/claude-cream-idea-1.0.0.zip`](dist/claude-cream-idea-1.0.0.zip)。
+1. 下载 [`dist/claude-cream-idea-1.0.1.zip`](dist/claude-cream-idea-1.0.1.zip)。
 2. 打开 Settings → Plugins。
 3. 点击齿轮图标，选择 **Install Plugin from Disk...**。
 4. 选择 ZIP 并按提示重启 IDEA。
@@ -104,7 +104,7 @@ src/main/resources/
 palette/claude-cream.json
 scripts/build.py
 scripts/validate.py
-dist/claude-cream-idea-1.0.0.zip
+dist/claude-cream-idea-1.0.1.zip
 ```
 
 ## 许可与归因

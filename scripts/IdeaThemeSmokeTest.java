@@ -27,6 +27,10 @@ public final class IdeaThemeSmokeTest {
                 if (parsed.name == null || parsed.ui == null || parsed.ui.isEmpty()) {
                     throw new IllegalArgumentException(path + " did not produce a complete UI theme bean");
                 }
+                if (index == 0 && (parsed.icons == null || !"/expui/general/moreVertical.svg".equals(
+                        parsed.icons.get("/expui/general/moreVertical_stroke.svg")))) {
+                    throw new IllegalArgumentException(path + " is missing the light overflow icon remapping");
+                }
                 System.out.println("Parsed UI theme: " + parsed.name + " (dark=" + parsed.dark + ")");
             }
         }
